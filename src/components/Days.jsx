@@ -1,15 +1,32 @@
 import React from "react";
 
 const Days = () => {
+  const onDaysClick = (e) => {
+    alert(e.currentTarget.textContent);
+  };
   return (
     <div className="days">
-      <div className="days_name">Sunday</div>
-      <div className="days_name">2day</div>
-      <div className="days_name">3day</div>
-      <div className="days_name">4day</div>
-      <div className="days_name">5day</div>
-      <div className="days_name">6day</div>
-      <div className="days_name">7day</div>
+      <div className="days_name" onClick={onDaysClick}>
+        Sunday
+      </div>
+      <div className="days_name" onClick={onDaysClick}>
+        Monday
+      </div>
+      <div className="days_name" onClick={onDaysClick}>
+        Tuesday
+      </div>
+      <div className="days_name" onClick={onDaysClick}>
+        Wednesday
+      </div>
+      <div className="days_name" onClick={onDaysClick}>
+        Thursday
+      </div>
+      <div className="days_name" onClick={onDaysClick}>
+        Friday
+      </div>
+      <div className="days_name" onClick={onDaysClick}>
+        Saturday
+      </div>
     </div>
   );
 };
