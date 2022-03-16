@@ -8,6 +8,7 @@ import Results from "./components/Results";
 import Title from "./components/Title";
 
 function App() {
+  const [selectedDay, setSelectedDay] = useState();
   // for the quote section to display random quote every time page load
   let quotes = [
     { id: 1, quote: "we will win", author: "Dipak" },
@@ -24,14 +25,20 @@ function App() {
   //Get the name of the day when the user click in one of the day and display it in the habits-section
   // -------for that we have to go to the Days component
   //The innertext of the div must be gotten when user click in selected div
-
+  const onDaysClick = (e) => {
+    const day = e.currentTarget.textContent;
+    setSelectedDay(day);
+  };
   return (
     <div className="App">
       <Title />
+
       <QuoteSection
         randomquote={randomquote().quote}
         author={randomquote().author}
+        onDaysClick={onDaysClick}
       />
+      <h1> sunday </h1>
       <AddHabits />
       <Results />
       <Footer />

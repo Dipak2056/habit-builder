@@ -1,8 +1,9 @@
 import React from "react";
 
-const AddHabits = () => {
+const AddHabits = ({ selectedDay }) => {
   return (
     <div className="quotes-section habit">
+      <h1>{selectedDay}</h1>
       <div className="habits-form">
         <form>
           <div className="habits-form__inputs">

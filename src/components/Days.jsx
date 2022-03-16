@@ -1,9 +1,6 @@
 import React from "react";
 
-const Days = () => {
-  const onDaysClick = (e) => {
-    alert(e.currentTarget.textContent);
-  };
+const Days = (onDaysClick) => {
   return (
     <div className="days">
       <div className="days_name" onClick={onDaysClick}>
