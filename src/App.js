@@ -1,4 +1,5 @@
 import "./App.css";
+import Days from "./components/Days";
 import { Footer } from "./components/Footer";
 import AddHabits from "./components/Habits-section";
 import QuoteSection from "./components/Quotes-section";

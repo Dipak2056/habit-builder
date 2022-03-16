@@ -36,25 +36,61 @@ const AddHabits = () => {
           <tr>
             <td>wake-up</td>
             <td>06:00-06:15</td>
-            <td>Done/not-done</td>
             <td>
-              <button>Delete</button>
+              <span>
+                <i class="fa-solid fa-calendar-check"></i>
+              </span>{" "}
+              <span>
+                <i class="fa-solid fa-calendar-xmark"></i>
+              </span>
+            </td>
+            <td>
+              <button className="delete-button">
+                Delete{" "}
+                <span>
+                  <i class="fa-solid fa-trash-can"></i>
+                </span>
+              </button>
             </td>
           </tr>
           <tr>
             <td>wake-up</td>
             <td>06:00-06:15</td>
-            <td>Done/not-done</td>
             <td>
-              <button>Delete</button>
+              <span>
+                <i class="fa-solid fa-calendar-check"></i>
+              </span>{" "}
+              <span>
+                <i class="fa-solid fa-calendar-xmark"></i>
+              </span>
+            </td>
+            <td>
+              <button className="delete-button">
+                Delete{" "}
+                <span>
+                  <i class="fa-solid fa-trash-can"></i>
+                </span>
+              </button>
             </td>
           </tr>
           <tr>
             <td>wake-up</td>
             <td>06:00-06:15</td>
-            <td>Done/not-done</td>
             <td>
-              <button>Delete</button>
+              <span>
+                <i class="fa-solid fa-calendar-check"></i>
+              </span>{" "}
+              <span>
+                <i class="fa-solid fa-calendar-xmark"></i>
+              </span>
+            </td>
+            <td>
+              <button className="delete-button">
+                Delete{" "}
+                <span>
+                  <i class="fa-solid fa-trash-can"></i>
+                </span>
+              </button>
             </td>
           </tr>
         </table>

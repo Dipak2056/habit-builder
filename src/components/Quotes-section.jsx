@@ -1,4 +1,5 @@
 import React from "react";
+import Days from "./Days";
 
 const QuoteSection = () => {
   return (
@@ -6,6 +7,8 @@ const QuoteSection = () => {
       <div className="quotes">
         <blockquote>Never give up.</blockquote>
       </div>
+      <Days />
+
       <div className="quotes-section menu-button">
         <i class="fa-solid fa-bars"></i>
       </div>

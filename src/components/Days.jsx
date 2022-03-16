@@ -3,13 +3,13 @@ import React from "react";
 const Days = () => {
   return (
     <div className="days">
-      <div></div>
-      <div>2day</div>
-      <div>3day</div>
-      <div>4day</div>
-      <div>5day</div>
-      <div>6day</div>
-      <div>7day</div>
+      <div className="days_name">Sunday</div>
+      <div className="days_name">2day</div>
+      <div className="days_name">3day</div>
+      <div className="days_name">4day</div>
+      <div className="days_name">5day</div>
+      <div className="days_name">6day</div>
+      <div className="days_name">7day</div>
     </div>
   );
 };
